@@ -1,14 +1,8 @@
-## Challenge Title
+# Classic Challenges
 
-#### Got from:
+Here are some of the most common challenges around, the ones that you probably heard about.
 
-####  The problem and the desired solution:
+<br />
+<hr>
 
-#### Link to answers:
-- [Solution](name/name.md)
-
-
-<details>
-  <summary>Solution explained</summary>
-
-</details>
+- [FizzBuzz](001/fizzbuzz.md)
