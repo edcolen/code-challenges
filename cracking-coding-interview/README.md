@@ -2,8 +2,6 @@
 
 Here are some of the challenges from the book by Gayle Laakmann McDowell.
 
-<br />
-<br />
 <hr>
 
 <!-- - [challenge-name](001/file.xt) -->
