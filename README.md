@@ -25,13 +25,13 @@ For more complex challenges, when applicable, I'll also add:
 * Feel free to clone this repo and make your own solutions
 * Feel free to comment on solutions or suggest new challenges(my contacts are below)
 
+## Contact me
 [<img align="left" alt="Ed Colen | website" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />][website]
 [<img align="left" alt="Ed Colen | email" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.9.0/icons/gmail.svg" />][email]
 [<img align="left" alt="Ed Colen | YouTube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.9.0/icons/medium.svg" />][medium]
 [<img align="left" alt="Ed Colen | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3.9.0/icons/linkedin.svg" />][linkedin]
 [<img align="left" alt="Ed Colen | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3.9.0/icons/instagram.svg" />][instagram]
 
-<br />
 <br />
 <hr>
 
