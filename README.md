@@ -37,10 +37,10 @@ For more complex challenges, when applicable, I'll also add:
 
 ## Categories
 
-- [Classic/Common Challenges](classic/classic.md)
-- [Cracking the Coding Interview](cracking-coding-interview/cracking.md)
-- [Daily Coding Problems](daily-coding-problems/daily-coding-problems.md)
-- [LeetCode](leetcode/leetcode.md)
+- [Classic/Common Challenges](classic/README.md)
+- [Cracking the Coding Interview](cracking-coding-interview/README.md)
+- [Daily Coding Problems](daily-coding-problems/README.md)
+- [LeetCode](leetcode/README.md)
 
 
 [website]: https://edcolen.com
