@@ -6,7 +6,7 @@ function fizzBuzz() {
 		} else if (i % 3 == 0) {
 			console.log("Fizz");
 		} else if (i % 5 == 0) {
-			console.log("Fizz");
+			console.log("Buzz");
 		} else {
 			console.log(i);
 		}
@@ -21,9 +21,11 @@ function flexFizzBuzz(num1, num2) {
 		} else if (i % num1 == 0) {
 			console.log("Fizz");
 		} else if (i % num2 == 0) {
-			console.log("Fizz");
+			console.log("Buzz");
 		} else {
 			console.log(i);
 		}
 	}
 }
+
+flexFizzBuzz(3,5);
