@@ -27,5 +27,3 @@ function flexFizzBuzz(num1, num2) {
 		}
 	}
 }
-
-flexFizzBuzz(3,5);
