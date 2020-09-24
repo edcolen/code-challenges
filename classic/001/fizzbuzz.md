@@ -14,5 +14,5 @@ Write a program that uses console.log to print all the numbers from 1 to 100, wi
 
 <details>
   <summary>Solution explained</summary>
-  <p>The solution is a matter of looping 100 times using an incremented counter, and with each passing use conditionals to check if the number is divisible (ramainder = 0) by 3, 5 or both, and logging accordingly. It would alse be possible to increment a more flexible program by making the function accept two arguments and check against them, as in the flexFizzBuzz function.</p>
+  <p>The solution is a matter of looping 100 times using an incremented counter, and with each passing use conditionals to check if the number is divisible (ramainder = 0) by 3, 5 or both, and logging accordingly(Fizz, Buzz, FizzBuzz or the counter). It would also be possible to increment a more flexible program by making the function accept two arguments and check against them, as in the flexFizzBuzz function.</p>
 </details>
