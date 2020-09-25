@@ -1,4 +1,4 @@
-# Classic Challenges
+# Classic/Common/General Challenges
 
 Here are some of the most common challenges around, the ones that you probably heard about.
 
