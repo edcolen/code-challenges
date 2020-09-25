@@ -1,13 +1,9 @@
-let arr = [3, 2, 1];
-
 function products(acc, num, i, array) {
-	console.log(`acc: ${acc}`);
-	console.log(`num: ${num}`);
-	console.log(`i: ${i}`);
-	console.log(`arrayElem: ${arr[i]}`);
-
-	return num !== array[i] ? (acc *= num) : acc;
+	return acc.concat(array.filter((el) => el !== num).reduce((a, c) => a * c, 1));
 }
 
-newArr = arr.reduce(products, 1);
-console.log(newArr);
+function solution(arr) {
+	return arr.reduce(products, []);
+}
+
+console.log(solution([1, 2, 3, 4, 5]));

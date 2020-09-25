@@ -17,6 +17,6 @@ Follow-up: what if you can't use division?
 
 <details>
   <summary>Solution explained</summary>
-  <p></p>
+  <p>The reduce method seemed to be useful for this problem. First, taking advantage of the forth reduce argument, I created a function to iterate through the array removing (filter) the current element and using reduce and return the product of the rest of the numbers. Then, I used this function as a reducer and set an empty array as the initial value so that it would be populated with the products in the right order. Also without using division.</p>
 
 </details>

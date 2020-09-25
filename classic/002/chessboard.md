@@ -15,5 +15,5 @@ When you have a program that generates this pattern, define a binding size = 8 a
 
 <details>
   <summary>Solution explained</summary>
-  <p>My first try, using less lines of code worked fine with even sizes. Testing it with odd ones failed to return a checkered board. So my new approach considered changing the order of characters at each new line. So I created a loop for each line, adding the "\n" at the end, and a loop to populate it with characters.</p>
+  <p>Using less lines of code on my first try worked fine with even sizes. Testing it with odd ones failed to return a checkered board, just a striped one. So on my new approach considered changing the order of characters at each new line. I created a loop for each line, adding the "\n" at the end, and a loop to populate it with characters.</p>
 </details>
