@@ -28,12 +28,27 @@ To what floor do the instructions take Santa?
 
 </details>
 
+--- Part Two ---
+
+Now, given the same instructions, find the position of the first character that causes him to enter the basement (floor -1). The first character in the instructions has position 1, the second character has position 2, and so on.
+
+For example:
+
+    ) causes him to enter the basement at character position 1.
+    ()()) causes him to enter the basement at character position 5.
+
+What is the position of the character that causes Santa to first enter the basement?
+
 #### Answers:
 
 - [Solution](day1.js)
 
 <details>
   <summary>Solution explained</summary>
-  <p>...</p>
+  <p>Part One: First, I assigned the instructions (as string) to a variable. Than I created a counter to keep track of floors. Since I needed to check each character, I turned the string into an array and iterated it, each time adding or substracting from the counter accordingly. The result was logged at the end.
+  </p>
+  
+  <p>Part Two: I added a second argument to the forEach() callback function to get the index of each character. Then, I added a conditional to push the position to a variable as soon as the elevator hit the basement (-1). As there would be multiple times of "basement arrivals", I just logged the first index (+ 1 since positions started at 1, not 0).
+  </p>
 
 </details>
