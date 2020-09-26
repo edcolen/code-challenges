@@ -1042,10 +1042,10 @@ How many total feet of ribbon should they order?
 
 <details>
   <summary>Solution explained</summary>
-  <p>Part One: 
-  </p>
-  
-  <p>Part Two: 
-  </p>
+  <p>To keep the code a bit cleaner, I stored the input in a txt file and import it. Each line was returned as a string inside an array by The readFileSync. Then, I mapped each string splitting it at x and turning the elements into Integers.</p>
+
+  <p>Part One: I created the "calculatePaper" function that just apply the formula indicated in the challenge and return the result. Then, I called it inside a "solution" function which iterates through each present, get the necessary size of the paper and add it to the total. Finally, the total is logged.</p>
+
+  <p>Part Two: Like in Part One, I just created the "calculateRibbon" function to apply the formula from the challenge and added it to the "solution" function.</p>
 
 </details>
