@@ -1025,25 +1025,27 @@ All numbers in the elves' list are in feet. How many total square feet of wrappi
 
 --- Part Two ---
 
-Now, given the same instructions, find the position of the first character that causes him to enter the basement (floor -1). The first character in the instructions has position 1, the second character has position 2, and so on.
+The elves are also running low on ribbon. Ribbon is all the same width, so they only have to worry about the length they need to order, which they would again like to be exact.
+
+The ribbon required to wrap a present is the shortest distance around its sides, or the smallest perimeter of any one face. Each present also requires a bow made out of ribbon as well; the feet of ribbon required for the perfect bow is equal to the cubic feet of volume of the present. Don't ask how they tie the bow, though; they'll never tell.
 
 For example:
 
-    ) causes him to enter the basement at character position 1.
-    ()()) causes him to enter the basement at character position 5.
+    A present with dimensions 2x3x4 requires 2+2+3+3 = 10 feet of ribbon to wrap the present plus 2*3*4 = 24 feet of ribbon for the bow, for a total of 34 feet.
+    A present with dimensions 1x1x10 requires 1+1+1+1 = 4 feet of ribbon to wrap the present plus 1*1*10 = 10 feet of ribbon for the bow, for a total of 14 feet.
 
-What is the position of the character that causes Santa to first enter the basement?
+How many total feet of ribbon should they order?
 
 #### Answers:
 
-- [Solution](day1.js)
+- [Solution](day2.js)
 
 <details>
   <summary>Solution explained</summary>
-  <p>Part One: First, I assigned the instructions (as string) to a variable. Than I created a counter to keep track of floors. Since I needed to check each character, I turned the string into an array and iterated it, each time adding or substracting from the counter accordingly. The result was logged at the end.
+  <p>Part One: 
   </p>
   
-  <p>Part Two: I added a second argument to the forEach() callback function to get the index of each character. Then, I added a conditional to push the position to a variable as soon as the elevator hit the basement (-1). As there would be multiple times of "basement arrivals", I just logged the first index (+ 1 since positions started at 1, not 0).
+  <p>Part Two: 
   </p>
 
 </details>
