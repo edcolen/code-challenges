@@ -12,8 +12,8 @@ Here are some of the challenges found at [Advent of Code website](https://advent
   
   <p>Collect stars by helping Santa solve puzzles. Two puzzles will be made available on each day in the Advent calendar; the second puzzle is unlocked when you complete the first. Each puzzle grants one star. Good luck!</p>
 
-- [Day 1](2015/day1.md) ✔
-- [Day 2](2015/day2.md) ✔
-- [Day 3](2015/day3.md) ✔
+- [Day 1: Not Quite Lisp](2015/day1.md) ✔
+- [Day 2: I Was Told There Would Be No Math](2015/day2.md) ✔
+- [Day 3: Perfectly Spherical Houses in a Vacuum](2015/day3.md) ✔
 
 </details>
