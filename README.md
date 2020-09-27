@@ -39,9 +39,9 @@ For more complex challenges, when applicable, I'll also add:
 
 ## Categories
 
-- [Classic/Common/General Challenges (2 solved)](classic/README.md)
-- [Advent of Code (3 solved)](advent-code/README.md)
-- [Daily Coding Problems (2 solved)](daily-coding-problems/README.md)
+- [Classic/Common/General Challenges](classic/README.md) (2 solved)
+- [Advent of Code](advent-code/README.md) (3 solved)
+- [Daily Coding Problems](daily-coding-problems/README.md) (2 solved)
 - [Cracking the Coding Interview](cracking-coding-interview/README.md)
 - [LeetCode](leetcode/README.md)
 
