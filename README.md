@@ -39,11 +39,11 @@ For more complex challenges, when applicable, I'll also add:
 
 ## Categories
 
-- [Classic/Common/General Challenges](classic/README.md)
+- [Classic/Common/General Challenges (2 solved)](classic/README.md)
+- [Advent of Code (3 solved)](advent-code/README.md)
+- [Daily Coding Problems (2 solved)](daily-coding-problems/README.md)
 - [Cracking the Coding Interview](cracking-coding-interview/README.md)
-- [Daily Coding Problems](daily-coding-problems/README.md)
 - [LeetCode](leetcode/README.md)
-- [Advent of Code](advent-code/README.md)
 
 [website]: https://edcolen.com
 [email]: mailto:ed.colen@gmail.com
