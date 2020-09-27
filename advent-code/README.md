@@ -14,5 +14,6 @@ Here are some of the challenges found at [Advent of Code website](https://advent
 
 - [Day 1](2015/day1.md) ✔
 - [Day 2](2015/day2.md) ✔
+- [Day 3](2015/day3.md) ✔
 
 </details>
