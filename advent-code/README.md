@@ -15,5 +15,6 @@ Here are some of the challenges found at [Advent of Code website](https://advent
 - [Day 1: Not Quite Lisp](2015/day1.md) ✔
 - [Day 2: I Was Told There Would Be No Math](2015/day2.md) ✔
 - [Day 3: Perfectly Spherical Houses in a Vacuum](2015/day3.md) ✔
+- [Day 4: The Ideal Stocking Stuffer](2015/day4.md) ✔
 
 </details>
