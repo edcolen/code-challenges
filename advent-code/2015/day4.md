@@ -27,7 +27,7 @@ Now find one that starts with six zeroes.
 
 <details>
   <summary>Solution explained</summary>
-  <p>To keep the code a bit cleaner, I stored the input in a txt file and import it. The, I stored the resulting string into a "secretKey" variable. In order to save me some time, instead of implementing the md5 generation algorithm myself, I just imported a module to do the task.</p>
+  <p>To keep the code a bit cleaner, I stored the input in a txt file and import it. The, I stored the resulting string into a "secretKey" variable. In order to save me some time, instead of implementing the md5 generation algorithm myself, I just imported a module to do the task. With more time, or if it would be really necessary, I would implement it.</p>
 
   <p>Part One: To solve this part I created a "findFiveZeros" function which has a loop that would run while the challenge solution criteria isn't met. That is, while the first five characters of the hash string differ from "00000". In each passing it adds 1 to a number and concatenates it at the end of the "secretKey" to generate a new hash. When it breaks from the loop, the correct number and the actual hash are logged.</p>
 
