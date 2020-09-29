@@ -43,7 +43,7 @@ What is the position of the character that causes Santa to first enter the basem
   <summary>Solution explained</summary>
   <p>To keep the code a bit cleaner, I stored the input in a txt file and import it. Since I needed to check each character, I turned the resulting string into an array.</p>
 
-  <p>Part One: First, I created a counter to keep track of floors. Then, I took the instructions array and iterated it, each time adding or substracting from the counter accordingly. The result (final floor) was logged at the end.</p>
+  <p>Part One: First, I created the "followElevatorInstructions" function to set a counter to keep track of floors and iterate throught the instructions array, each time adding or substracting from the counter accordingly. The result (final floor) was logged at the end.</p>
   
   <p>Part Two: I added a second argument to the forEach() callback function to get the index of each character. Then, I added a conditional to push the position to a variable as soon as the elevator hit the basement (-1). As there would be multiple times of "basement arrivals", I just logged the first index (+ 1 since positions started at 1, not 0).</p>
 

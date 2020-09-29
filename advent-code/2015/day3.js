@@ -1,7 +1,9 @@
 const fs = require("fs");
 
-rawFile = fs.readFileSync(__dirname + "\\day3.txt", "utf8").split("\r\n");
-directions = rawFile[0].split("");
+function getInput() {
+	rawFile = fs.readFileSync(__dirname + "\\day3.txt", "utf8").split("\r\n");
+	return rawFile[0].split("");
+}
 
 let trackPositions = function (directions) {
 	let positions = [];
@@ -47,6 +49,7 @@ let santaWithRobotPositions = function (directions) {
 	return { ...santaPositions, ...robotPositions };
 };
 
+let directions = getInput();
 housesWithGiftsPart1 = Object.keys(trackPositions(directions));
 console.log(housesWithGiftsPart1.length);
 

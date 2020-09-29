@@ -1,12 +1,15 @@
 const fs = require("fs");
 
-rawFile = fs.readFileSync(__dirname + "\\day2.txt", "utf8").split("\r\n");
-dimensions = rawFile.map((el) => {
-	preparedDimensions = el.split("x").map((dim) => {
-		return parseInt(dim);
+function getInput() {
+	rawFile = fs.readFileSync(__dirname + "\\day2.txt", "utf8").split("\r\n");
+	dimensions = rawFile.map((el) => {
+		preparedDimensions = el.split("x").map((dim) => {
+			return parseInt(dim);
+		});
+		return preparedDimensions;
 	});
-	return preparedDimensions;
-});
+	return dimensions;
+}
 
 function calculatePaper(presentDimensions) {
 	let paper = [];
@@ -36,4 +39,5 @@ function solution(array) {
 	console.log(totalRibbon);
 }
 
+dimensions = getInput();
 solution(dimensions);

@@ -1,8 +1,10 @@
 const fs = require("fs"),
 	md5 = require("md5");
 
-rawFile = fs.readFileSync(__dirname + "\\day4.txt", "utf8").split("\r\n");
-secretKey = rawFile[0];
+function getInput() {
+	rawFile = fs.readFileSync(__dirname + "\\day4.txt", "utf8").split("\r\n");
+	return rawFile[0];
+}
 
 function findFiveZeros(secretKey) {
 	num = 0;
@@ -29,5 +31,6 @@ function findSixZeros(secretKey) {
 	);
 }
 
+let secretKey = getInput();
 findFiveZeros(secretKey);
 findSixZeros(secretKey);
