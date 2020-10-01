@@ -14,9 +14,9 @@ However, the elf back at the north pole has had a little too much eggnog, and so
 
 For example:
 
-    - > delivers presents to 2 houses: one at the starting location, and one to the east.
-    - ^>v< delivers presents to 4 houses in a square, including twice to the house at his starting/ending location.
-    - ^v^v^v^v^v delivers a bunch of presents to some very lucky children at only 2 houses.
+- **\>** delivers presents to 2 houses: one at the starting location, and one to the east.
+- **^>v<** delivers presents to 4 houses in a square, including twice to the house at his starting/ending location.
+- **^v^v^v^v^v** delivers a bunch of presents to some very lucky children at only 2 houses.
 
 [Get the puzzle input](day3.txt)
 
@@ -30,9 +30,9 @@ This year, how many houses receive at least one present?
 
 For example:
 
-    - ^v delivers presents to 3 houses, because Santa goes north, and then Robo-Santa goes south.
-    - ^>v< now delivers presents to 3 houses, and Santa and Robo-Santa end up back where they started.
-    - ^v^v^v^v^v now delivers presents to 11 houses, with Santa going one direction and Robo-Santa going the other.
+- **^v** delivers presents to 3 houses, because Santa goes north, and then Robo-Santa goes south.
+- **^>v<** now delivers presents to 3 houses, and Santa and Robo-Santa end up back where they started.
+- **^v^v^v^v^v** now delivers presents to 11 houses, with Santa going one direction and Robo-Santa going the other.
 
 #### Answers:
 
