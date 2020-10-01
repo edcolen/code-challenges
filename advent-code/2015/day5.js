@@ -17,7 +17,7 @@ const checkVowels = function (str) {
 
 const checkDoubles = function (str) {
 	for (let i = 0; i <= str.length - 1; i++) {
-		if (str[i] == str[i + 1]) return true;
+		if (str[i] === str[i + 1]) return true;
 	}
 };
 

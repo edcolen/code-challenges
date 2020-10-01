@@ -40,7 +40,7 @@ let santaWithRobotPositions = function (directions) {
 	santaDirections = [];
 	robotDirections = [];
 	directions.forEach((direction, i) => {
-		i % 2 == 0
+		i % 2 === 0
 			? santaDirections.push(direction)
 			: robotDirections.push(direction);
 	});
