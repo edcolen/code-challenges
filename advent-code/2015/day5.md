@@ -50,6 +50,9 @@ How many strings are nice under these new rules?
 
 <details>
   <summary>Solution explained</summary>
-  <p>...</p>
+  <p>To keep the code a bit cleaner, I stored the input in a txt file and import it. Each line was returned as a string inside an array by The readFileSync.</p>
 
-</details>
+  <p>Part One: First, I created a separate function to submit the strings and test each condition. The "checkVowels" function has a counter that that increases 1 point every time the string matches a regex set of vowels. If the counter ends up with at leat 3, it returns true. The "checkDoubles" function iterates through the string checking if the character in the next index is the same as the current one, returning true if they are. The "checkDisallowed" function basically has a regex to test if the string has any of the disallowed character pairs. The "stringNice1" function iterates through the array os strings checking if each one of them matches all three criteria. Finally, the "countNiceStr1" logs the length of the array made of "nice strings", that is, the solution to the first part of the problem.</p>
+
+  <p>Part Two: First, I created a separate function to submit the strings and test each condition. The "checkPairs" function iterates through the string picking a pair of characters and checking if it repeats in the remaining slice, returning true if it does. The "checkLetterMiddle" function iterates through the string checking if it contains at least one letter which repeats with exactly one letter between them. The "stringNice2" function iterates through the array os strings checking if each one of them matches all two criteria. Finally, the "countNiceStr2" logs the length of the array made of "nice strings", that is, the solution to the second part of the problem.</p>
+  </details>
