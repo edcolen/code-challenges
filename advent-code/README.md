@@ -16,5 +16,6 @@ Here are some of the challenges found at [Advent of Code website](https://advent
 - [Day 2: I Was Told There Would Be No Math](2015/day2.md) ✔
 - [Day 3: Perfectly Spherical Houses in a Vacuum](2015/day3.md) ✔
 - [Day 4: The Ideal Stocking Stuffer](2015/day4.md) ✔
+- [Day 5: Doesn't He Have Intern-Elves For This?](2015/day5.md) ✔
 
 </details>

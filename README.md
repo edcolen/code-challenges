@@ -40,7 +40,7 @@ For more complex challenges, when applicable, I'll also add:
 ## Categories
 
 - [Classic/Common/General Challenges](classic/README.md) (2 solved)
-- [Advent of Code](advent-code/README.md) (4 solved)
+- [Advent of Code](advent-code/README.md) (5 solved)
 - [Daily Coding Problems](daily-coding-problems/README.md) (2 solved)
 - [Cracking the Coding Interview](cracking-coding-interview/README.md)
 - [LeetCode](leetcode/README.md)
