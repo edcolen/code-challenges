@@ -1,5 +1,4 @@
 const fs = require("fs"),
-	md5 = require("md5");
 
 const getInput = function () {
 	rawFile = fs.readFileSync(__dirname + "\\day5.txt", "utf8").split("\r\n");
