@@ -1,4 +1,4 @@
-const fs = require("fs"),
+const fs = require("fs");
 
 const getInput = function () {
 	rawFile = fs.readFileSync(__dirname + "\\day5.txt", "utf8").split("\r\n");
