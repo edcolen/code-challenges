@@ -38,6 +38,9 @@ function followInstructions(instructions) {
 let instructions = getInstructions(getInput());
 followInstructions(instructions);
 
-let lightsLit = lightGrid.reduce((brightness, light) => brightness + light, 0);
+let totalBrightness = lightGrid.reduce(
+	(brightness, light) => brightness + light,
+	0
+);
 
-console.log(lightsLit);
+console.log(totalBrightness);
