@@ -26,15 +26,28 @@ After following the instructions, how many lights are lit?
 
 --- Part Two ---
 
+You just finish implementing your winning light pattern when you realize you mistranslated Santa's message from Ancient Nordic Elvish.
+The light grid you bought actually has individual brightness controls; each light can have a brightness of zero or more. The lights all start at zero.
+The phrase turn on actually means that you should increase the brightness of those lights by 1.
+The phrase turn off actually means that you should decrease the brightness of those lights by 1, to a minimum of zero.
+The phrase toggle actually means that you should increase the brightness of those lights by 2.
+What is the total brightness of all lights combined after following Santa's instructions?
+
+For example:
+
+- **turn on 0,0 through 0,0** would increase the total brightness by 1.
+- **toggle 0,0 through 999,999** would increase the total brightness by 2000000.
+
 #### Answers:
 
-- [Solution](day5.js)
+- [Solution - Part One](day6-1.js)
+- [Solution - Part Two](day6-2.js)
 
 <details>
   <summary>Solution explained</summary>
   <p>To keep the code a bit cleaner, I stored the input in a txt file and import it. Each line was returned as a string inside an array by The readFileSync.</p>
 
-  <p>Part One: First, I created a separate function to submit the strings and test each condition. The "checkVowels" function has a counter that that increases 1 point every time the string matches a regex set of vowels. If the counter ends up with at leat 3, it returns true. The "checkDoubles" function iterates through the string checking if the character in the next index is the same as the current one, returning true if they are. The "checkDisallowed" function basically has a regex to test if the string has any of the disallowed character pairs. The "stringNice1" function iterates through the array os strings checking if each one of them matches all three criteria. Finally, the "countNiceStr1" logs the length of the array made of "nice strings", that is, the solution to the first part of the problem.</p>
+  <p>Part One: First, I created the "getInstructions" function to iterate through the instructions array and, using regex, to extract the command, where it starts and where it ends. To create the light grid I used a Uint8Array to store the lights' states. Then, I created a "followInstructions" that receives an instructions array, iterates through it and apply the commands to the right lights. Finally, I used reduce to calculate the number of total lit lights.</p>
 
-  <p>Part Two: First, I created a separate function to submit the strings and test each condition. The "checkPairs" function iterates through the string picking a pair of characters and checking if it repeats in the remaining slice, returning true if it does. The "checkLetterMiddle" function iterates through the string checking if it contains at least one letter which repeats with exactly one letter between them. The "stringNice2" function iterates through the array os strings checking if each one of them matches all two criteria. Finally, the "countNiceStr2" logs the length of the array made of "nice strings", that is, the solution to the second part of the problem.</p>
+  <p>Part Two: Almost the same as the first part, with the exception that the "followInstructions" function would add or remove from the brightness score instead of just assigning 0 or 1. In the end, I also used reduce to calculate the total brightness.</p>
   </details>
