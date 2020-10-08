@@ -1,8 +1,8 @@
 # Code Challenges (and interview questions)
 
 This repo was created as a device for me to keep track of code challenges I solved in different languages while studying.
-It can also work as a piece of portfolio, so my code and logic can be seen for whoever might be interested.
-Last but not least, it can be a code challenge database by those willing to study as well.
+It can also work as a piece of portfolio, so my code and logic can be seen by whoever might be interested.
+Last but not least, it can be a code challenge database for those willing to study as well.
 
 ## Structure
 
